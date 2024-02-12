@@ -35,6 +35,8 @@
             /* Styles spécifiques pour les écrans de 600 pixels de largeur ou moins (typiquement des téléphones) */
             #countdown {
                 font-size: 50px; /* Remplacez la valeur par celle que vous préférez */
-                max-img: 80%;
+                 width: 100%; /* Assurez-vous que l'image occupe toute la largeur du conteneur */
+                 height: auto; /* Permet à la hauteur de s'ajuster automatiquement pour maintenir les proportions */
+                 max-width: 600px;
             }
   }
