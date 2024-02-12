@@ -35,11 +35,12 @@
             /* Styles spécifiques pour les écrans de 600 pixels de largeur ou moins (typiquement des téléphones) */
             #countdown {
                 font-size: 32px; /* Remplacez la valeur par celle que vous préférez */
-                 
-             img {
+                }
+             
+  }
+@media only screen and (max-width: 600px) {
+img {
               width: 100%; /* Assurez-vous que l'image occupe toute la largeur du conteneur */
               height: auto; /* Permet à la hauteur de s'ajuster automatiquement pour maintenir les proportions */
                }
-            }
-             
-  }
+ }
