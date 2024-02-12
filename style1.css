@@ -34,7 +34,7 @@
 @media only screen and (max-width: 600px) {
             /* Styles spécifiques pour les écrans de 600 pixels de largeur ou moins (typiquement des téléphones) */
             #countdown {
-                font-size: 32px; /* Remplacez la valeur par celle que vous préférez */
+                font-size: 33px; /* Remplacez la valeur par celle que vous préférez */
                 }
              
   }
