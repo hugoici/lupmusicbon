@@ -38,9 +38,10 @@
                 }
              
   }
+
 @media only screen and (max-width: 600px) {
-img {
-              width: 100%; /* Assurez-vous que l'image occupe toute la largeur du conteneur */
+           img {
+              width: 95%; /* Assurez-vous que l'image occupe toute la largeur du conteneur */
               height: auto; /* Permet à la hauteur de s'ajuster automatiquement pour maintenir les proportions */
                }
  }
