@@ -16,7 +16,7 @@
     font-size: 5em;
     text-align: center;
     margin-top: -220px;
-    max-width: 160%;
+    
 }
 #redirect-link {
     display: none;
@@ -33,6 +33,7 @@
 @media only screen and (max-width: 600px) {
             /* Styles spécifiques pour les écrans de 600 pixels de largeur ou moins (typiquement des téléphones) */
             #countdown {
-                font-size: 14px; /* Remplacez la valeur par celle que vous préférez */
+                font-size: 114px; /* Remplacez la valeur par celle que vous préférez */
+                max-img: 80%;
             }
   }
