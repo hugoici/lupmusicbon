@@ -16,7 +16,7 @@
     font-size: 5em;
     text-align: center;
     margin-top: -220px;
-    max-width: 150%;
+    max-width: 145%;
     
 }
 #redirect-link {
@@ -34,9 +34,12 @@
 @media only screen and (max-width: 600px) {
             /* Styles spécifiques pour les écrans de 600 pixels de largeur ou moins (typiquement des téléphones) */
             #countdown {
-                font-size: 50px; /* Remplacez la valeur par celle que vous préférez */
-                 width: 100%; /* Assurez-vous que l'image occupe toute la largeur du conteneur */
-                 height: auto; /* Permet à la hauteur de s'ajuster automatiquement pour maintenir les proportions */
-                 max-width: 600px;
+                font-size: 40px; /* Remplacez la valeur par celle que vous préférez */
+                 
+             img {
+              width: 100%; /* Assurez-vous que l'image occupe toute la largeur du conteneur */
+              height: auto; /* Permet à la hauteur de s'ajuster automatiquement pour maintenir les proportions */
+               }
             }
+             
   }
