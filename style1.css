@@ -10,7 +10,12 @@
     color: white;
     font-family: 'OCR A Std', monospace;
 }
-
+@media only screen and (max-width: 600px) {
+    /* Styles spécifiques pour les écrans de 600 pixels de largeur ou moins (typiquement des téléphones) */
+    body {
+        font-size: 14px; /* Remplacez la valeur par celle que vous préférez */
+    }
+}
 
 #countdown {
     font-size: 5em;
