@@ -30,6 +30,22 @@
     background-color: #FFFFFF;
     border-radius: 10px;
 }
+#social-media {
+    position: fixed;
+    bottom: 0;
+    left: 10;
+    width: 99% ;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+#social-media img {
+    width: 137px; /* Ajustez la taille des logos selon vos besoins */
+    height: 80px;
+}
 
 @media only screen and (max-width: 600px) {
             /* Styles spécifiques pour les écrans de 600 pixels de largeur ou moins (typiquement des téléphones) */
