@@ -32,6 +32,7 @@
                 
             <center><img src="centerm.PNG" width="480px" height="270px" /></center>
                  <p> ⏳  ${days}d ${hours}h ${minutes}m ${seconds}s ⏳ </p>
+                  <h5> oubile pas d actualiser la page quand tu revien sur le site ! 🔄 </h5> 
             `;
         } else {
             countdownElement.innerHTML = ''; // Masquer le contenu
@@ -49,6 +50,7 @@
             }
         }, 1000);
     }
+   
 // Date et heure cible
     const targetDate = new Date('2024-03-29T19:00:00'); // Remplacez par votre date et heure cible
 // Calcul du temps restant jusqu'à la date cible
