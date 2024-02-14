@@ -12,7 +12,7 @@
 }
 #countdown-container {
     position: relative;
-    max-width: 90%;
+    max-width: 80%;
     display: flex;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.8); /* Couleur de fond noir avec une opacité de 0.8 */
