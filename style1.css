@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.8); /* Couleur de fond noir avec une opacité de 0.8 */
-    padding: -40px 60px; /* Espacement intérieur du conteneur */
+    padding: 60px; /* Espacement intérieur du conteneur */
     border-radius: 30px; /* Bordure arrondie du conteneur */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre légère pour créer un effet de profondeur */
     box-sizing: border-box;
