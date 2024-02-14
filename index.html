@@ -29,6 +29,11 @@
         const seconds = time % 60;
 
         const countdownElement = document.getElementById('countdown');
+        
+         function refreshPage() {
+        location.reload(true);
+             setInterval(refreshPage, 180000)
+    }
         if (time > 0) {
             countdownElement.innerHTML = `
                 
