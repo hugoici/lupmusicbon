@@ -11,7 +11,7 @@
     font-family: 'OCR A Std', monospace;
 }
 #countdown-container {
-     position: relative;
+    position: relative;
     max-width: 80%;
     display: flex;
     justify-content: space-around;
@@ -62,6 +62,9 @@
             /* Styles spécifiques pour les écrans de 600 pixels de largeur ou moins (typiquement des téléphones) */
             #countdown {
                 font-size: 30px; /* Remplacez la valeur par celle que vous préférez */
+                }
+            #countdown-container {
+                position: fixed; /* Remplacez la valeur par celle que vous préférez */
                 }
              
   }
