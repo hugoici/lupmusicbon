@@ -61,13 +61,25 @@
 @media only screen and (max-width: 600px) {
             /* Styles spécifiques pour les écrans de 600 pixels de largeur ou moins (typiquement des téléphones) */
             #countdown {
-                font-size: 30px; /* Remplacez la valeur par celle que vous préférez */
-                }
-            #countdown-container {
-                position: fixed; /* Remplacez la valeur par celle que vous préférez */
+                margin-top: -200px;
+                font-size: 26px; /* Remplacez la valeur par celle que vous préférez */
                 }
              
   }
+@media only screen and (max-width: 600px) {
+            /* Styles spécifiques pour les écrans de 600 pixels de largeur ou moins (typiquement des téléphones) */
+           
+  #countdown-container {
+    position: relative;
+    max-width: 80%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond noir avec une opacité de 0.8 */
+    padding: 20px; /* Espacement intérieur du conteneur */
+    border-radius: 30px; /* Bordure arrondie du conteneur */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre légère pour créer un effet de profondeur */
+    box-sizing: border-box;
+ }
 
 @media only screen and (max-width: 600px) {
            img {
