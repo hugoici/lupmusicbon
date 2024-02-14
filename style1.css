@@ -41,7 +41,7 @@
 }
 #social-media {
     position: fixed;
-    bottom: 0;
+    bottom: 100;
     left: 10;
     width: 99% ;
     display: flex;
