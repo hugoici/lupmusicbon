@@ -63,7 +63,7 @@
             #countdown {
                 margin-top: -200px;
                 font-size: 26px; /* Remplacez la valeur par celle que vous préférez */
-                max-width: 155%;
+                max-width: 170%;
                 }
              
   }
@@ -72,7 +72,7 @@
            
   #countdown-container {
     position: relative;
-    max-width: 80%;
+    max-width: 90%;
     display: flex;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond noir avec une opacité de 0.8 */
