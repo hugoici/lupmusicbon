@@ -19,6 +19,7 @@
     padding: -40px 60px; /* Espacement intérieur du conteneur */
     border-radius: 30px; /* Bordure arrondie du conteneur */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre légère pour créer un effet de profondeur */
+    box-sizing: border-box;
 }
 #countdown {
     font-size: 5em;
