@@ -12,14 +12,16 @@
 }
 #countdown-container {
     position: relative;
-    max-width: 80%;
+    bottom: 40;
+    left: 10;
+    width: 99% ;
     display: flex;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.8); /* Couleur de fond noir avec une opacité de 0.8 */
-    padding: 5px; /* Espacement intérieur du conteneur */
-    border-radius: 30px; /* Bordure arrondie du conteneur */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre légère pour créer un effet de profondeur */
+    background-color: #000000;
+    padding: 0px;
     box-sizing: border-box;
+    border-radius: 30px;
+   
 }
 #countdown {
     font-size: 5em;
