@@ -63,6 +63,7 @@
             #countdown {
                 margin-top: -200px;
                 font-size: 26px; /* Remplacez la valeur par celle que vous préférez */
+                max-width: 155%;
                 }
              
   }
