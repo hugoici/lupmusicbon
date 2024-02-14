@@ -13,8 +13,8 @@
 #countdown-container {
     position: relative;
     bottom: 40;
-    left: 10;
-    width: 59% ;
+    left: 60;
+    width: 99% ;
     display: flex;
     justify-content: space-around;
     background-color: #000000;
