@@ -1,7 +1,7 @@
  body {
     margin: 0;
     padding: 0;
-    background-image: url('Illustration_sans_titre.jpg'); /* Remplacez 'fond.jpg' par le lien de votre image de fond */
+    background-image: url('fond.jpg'); /* Remplacez 'fond.jpg' par le lien de votre image de fond */
     background-size: cover;
     display: flex;
     align-items: center;
